@@ -1,0 +1,7 @@
+name: genpark-concurrency-semaphore-guard-skill
+description: In-memory concurrency leaky-bucket and fair semaphore guard protecting downstream LLM APIs from rate-limit saturation
+version: 1.0.1
+entrypoint: mcp_server.py
+command: python
+args:
+  - mcp_server.py
